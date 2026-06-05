@@ -45,6 +45,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  font-weight: 700;
   color: var(--color-main-text);
   margin: 0;
 }
