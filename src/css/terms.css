@@ -1,5 +1,11 @@
 .terms {
-    padding: 48px 0;
+    padding: clamp(48px, 8vw, 96px) 0;
+}
+
+.terms .container {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 clamp(24px, 6vw, 80px);
 }
 
 .terms-title {
@@ -56,10 +62,6 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    .terms {
-        padding: 96px 0;
-    }
-
     .terms-title {
         font-size: 56px;
         margin-bottom: 48px;
