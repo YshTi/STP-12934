@@ -1,5 +1,5 @@
 .header {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .header .container {
@@ -11,7 +11,7 @@
 .nav-logo {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 9.8px;
   white-space: nowrap;
 }
 
@@ -22,7 +22,7 @@
   box-shadow: 0 2px 0 0 rgba(214, 56, 109, 0.4),
     inset 0 -3px 0 0 rgba(0, 0, 0, 0.12);
   background: #ff5c8d;
-  transform: rotate(-5deg);
+  transform: rotate(-4deg);
 
   display: flex;
   align-items: center;
@@ -30,11 +30,13 @@
 }
 
 .box p {
+  font-family: var(--font-heading);
   font-weight: 700;
   color: #fff;
 }
 
 .header-logo_text {
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 17px;
 }
@@ -90,8 +92,9 @@
 
 .burger-menu {
   width: 100%;
-  max-width: 375px;
+  max-width: 1024px;
   min-height: 90vh;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -99,14 +102,17 @@
   padding: 14px 24px 15px;
 
   background-color: #f8f3ed;
-  background-image: url('../img/features@1x.png');
+  background-image: image-set(url('../img/mobile-menu@1x.png') 1x,
+      url('../img/mobile-menu@2x.png') 2x);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .burger-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 0;
 }
 
 .close-svg {
@@ -172,14 +178,19 @@
 }
 
 .first {
+  font-family: var(--font-heading);
   font-weight: 400;
   font-size: 10px;
+  line-height: 1.1;
+  letter-spacing: 0.06em;
   color: #fff;
 }
 
 .last {
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.1;
   letter-spacing: -0.01em;
   color: #fff;
 }
@@ -259,13 +270,22 @@
 
   .desktop-play {
     display: flex;
+    box-sizing: border-box;
 
     width: auto;
     max-width: none;
     height: 44px;
 
     margin: 0;
-    padding: 10px 16px 10px 14px;
+    padding: 9.36px 16px 9.36px 14px;
+  }
+
+  .first {
+    font-size: 9px;
+  }
+
+  .last {
+    font-size: 14px;
   }
 
   .desktop-nav-list {
