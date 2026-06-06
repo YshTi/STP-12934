@@ -1,3 +1,19 @@
+.mobile-menu-backdrop[data-visible='close'] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mobile-menu-backdrop[data-visible='open'] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+body[data-scroll-lock='true'] {
+  overflow: hidden;
+}
+
 .header {
   padding: 10px 0;
 }
