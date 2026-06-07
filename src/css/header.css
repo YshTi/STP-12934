@@ -336,3 +336,7 @@ body[data-scroll-lock='true'] {
     color: #ff5c8d;
   }
 }
+
+.no-scroll {
+  overflow: hidden;
+}
