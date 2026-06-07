@@ -133,12 +133,18 @@ body[data-scroll-lock='true'] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding-bottom: 34px;
 }
 
 .close-svg {
-  padding: 12px 10px;
+  display: block;
+  width: 20px;
+  height: 16px;
+  padding: 0;
+
   color: #fff;
+  stroke: currentColor;
+  fill: none;
 }
 
 .list {
@@ -151,7 +157,7 @@ body[data-scroll-lock='true'] {
   justify-content: space-between;
   align-items: center;
 
-  padding: 19px 0 17px;
+  padding: 18px 0;
 
   border-bottom: 1px solid #f5eaf2;
 }
@@ -261,6 +267,12 @@ body[data-scroll-lock='true'] {
     padding: 24px 0;
   }
 
+  .burger-header {
+    padding-top: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
   .container {
     max-width: 768px;
     padding: 0 32px;
@@ -335,8 +347,4 @@ body[data-scroll-lock='true'] {
   .desktop-nav-list a:focus {
     color: #ff5c8d;
   }
-}
-
-.no-scroll {
-  overflow: hidden;
 }
