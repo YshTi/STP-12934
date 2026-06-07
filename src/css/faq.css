@@ -111,11 +111,15 @@
 /* Icon in closed item */
 [data-item][data-state='closed'] .faq-svg {
   color: #ff5c8d;
+  width: 14px;
+  height: 14px;
 }
 
 /* Icon in opened item */
 [data-item][data-state='open'] .faq-svg {
   color: #ffffff;
+  width: 14px;
+  height: 14px;
 }
 
 .faq-answer {
@@ -160,6 +164,12 @@
 
   .faq-item {
     max-width: 760px;
+  }
+
+  [data-item][data-state='closed'] .faq-svg {
+    color: #ff5c8d;
+    width: 18px;
+    height: 18px;
   }
 
   [data-item][data-state='closed'] {

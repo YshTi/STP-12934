@@ -1,7 +1,10 @@
 const faqItems = document.querySelectorAll('[data-item]');
 
-const iconPlus = './img/sprite.svg#icon-plus';
-const iconMinus = './img/sprite.svg#icon-minus';
+const getSpritePath = useElement => {
+  const currentHref = useElement.getAttribute('href');
+
+  return currentHref.split('#')[0];
+};
 
 const setFaqState = (item, isOpen) => {
   const button = item.querySelector('[data-button]');
@@ -14,7 +17,10 @@ const setFaqState = (item, isOpen) => {
   }
 
   if (icon) {
-    icon.setAttribute('href', isOpen ? iconMinus : iconPlus);
+    const spritePath = getSpritePath(icon);
+    const iconName = isOpen ? 'icon-minus' : 'icon-plus';
+
+    icon.setAttribute('href', `${spritePath}#${iconName}`);
   }
 };
 
@@ -37,4 +43,3 @@ faqItems.forEach((item, index) => {
     }
   });
 });
-
