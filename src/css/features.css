@@ -1,5 +1,8 @@
 .features {
   padding-top: 64px;
+  background-image: image-set(url('../img/./features@1x.png') 1x,
+      url('../img//features@2x.png') 2x);
+  background-position: center;
 }
 
 .features-title {
@@ -22,6 +25,10 @@
   align-items: center;
   gap: 14px;
   flex-direction: column;
+}
+
+.features .container {
+  position: relative;
 }
 
 .features-item {
@@ -52,6 +59,10 @@
   font-weight: 700;
   font-size: 19px;
   margin-bottom: 14px;
+}
+
+.features-character {
+  display: none;
 }
 
 .features-sub-tag {
@@ -156,6 +167,14 @@
 @media screen and (min-width:1200px) {
   .features-list {
     flex-direction: row;
+  }
+
+  .features-character {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    transform: rotate(8deg);
   }
 
   .features {
