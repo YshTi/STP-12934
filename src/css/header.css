@@ -262,34 +262,9 @@ body[data-scroll-lock='true'] {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .header {
-    padding: 24px 0;
-  }
-
-  .burger-header {
-    padding-top: 24px;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-    margin: 0 auto;
-  }
-
-  .desktop-play {
-    display: flex;
-  }
-}
-
-
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 80px;
-    margin: 0 auto;
+    padding: 16px 80px;
   }
 
   .box p {
@@ -309,24 +284,35 @@ body[data-scroll-lock='true'] {
     margin: 0 auto;
   }
 
+  .playMarket {
+    width: 18px;
+    height: 20px;
+  }
+
   .desktop-play {
     display: flex;
     box-sizing: border-box;
+    align-items: center;
+    gap: 10px;
 
     width: auto;
     max-width: none;
     height: 44px;
 
     margin: 0;
-    padding: 9.36px 16px 9.36px 14px;
+    padding: 0 16px 0 14px;
   }
 
   .first {
     font-size: 9px;
+    line-height: 1.1;
+    letter-spacing: 0.06em;
   }
 
   .last {
     font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
   }
 
   .desktop-nav-list {

@@ -166,7 +166,7 @@
 }
 
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1440px) {
   .features-list {
     gap: 24px;
   }
@@ -182,7 +182,7 @@
   }
 
   .features {
-    padding: 96px 0;
+    padding: 96px 80px;
   }
 
   .features-item {
