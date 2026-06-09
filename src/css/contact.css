@@ -1,0 +1,156 @@
+.contact {
+  background-image: image-set(url(../img/contact-mobile@1x.png) 1x, url(../img/contact-mobile@2x.png) 2x);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.contact .container {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-title {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--color-main-text);
+  margin-bottom: 18px;
+}
+
+.combo {
+  color: #FF5C8D;
+}
+
+.contact-sub-title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.email-container {
+  display: flex;
+  max-width: 327px;
+  height: 54px;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 0 0 rgba(45, 27, 78, 0.08);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.link-text {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--color-main-text);
+}
+
+.email-svg {
+  background-color: #FF5C8D;
+  padding: 5px;
+  width: 26px;
+  height: 26px;
+  border-radius: 10px;
+}
+
+
+
+.contact-play {
+  display: flex;
+  border-radius: 14px;
+  max-width: 327px;
+  height: 56px;
+  gap: 14px;
+  box-shadow: 0 4px 0 0 rgba(45, 27, 78, 0.25);
+  background: var(--color-main-text);
+  align-items: center;
+  justify-content: center;
+}
+
+.comic {
+  position: absolute;
+  left: -20px;
+  bottom: -30px;
+  width: 110px;
+  height: 110px;
+  transform: rotate(-12deg);
+  filter: drop-shadow(0 16px 24px rgba(45, 27, 78, 0.24));
+}
+
+.first-link {
+  font-size: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.last-link {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (min-width: 1440px) {
+  .email-container {
+    margin: 0 auto;
+    margin-bottom: 32px;
+    max-width: 323px;
+    height: 69px;
+    gap: 14px;
+  }
+
+  .contact-play {
+    margin: 0 auto;
+    max-width: 173px;
+  }
+
+  .contact-sub-title {
+    margin-bottom: 32px;
+  }
+
+  .contact-title {
+    font-size: 56px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    max-width: 332px;
+    text-align: center;
+  }
+
+  .contact-sub-title {
+    font-size: 22px;
+  }
+
+  .contact {
+    background-image: image-set(url(../img/contact@1x.png) 1x, url(../img/contact@2x.png) 2x);
+    padding: 96px 0;
+  }
+
+  .comic {
+    left: -60px;
+    bottom: -40px;
+    width: 160px;
+    height: 160px;
+  }
+
+  .email-svg {
+    padding: 7px;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+  }
+
+  .link-text {
+    font-size: 22px;
+  }
+}
