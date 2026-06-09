@@ -15,7 +15,19 @@ body[data-scroll-lock='true'] {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  width: 100%;
+  box-sizing: border-box;
+
   padding: 10px 0;
+
+  background-color: #fff8f0;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .header .container {
@@ -88,6 +100,7 @@ body[data-scroll-lock='true'] {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   background-color: rgba(0, 0, 0, 0.4);
 

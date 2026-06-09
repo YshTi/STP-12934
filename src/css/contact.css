@@ -43,6 +43,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 0 auto;
   margin-bottom: 18px;
 }
 
@@ -74,6 +75,7 @@
   background: var(--color-main-text);
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .comic {
@@ -103,7 +105,6 @@
 
 @media screen and (min-width: 1440px) {
   .email-container {
-    margin: 0 auto;
     margin-bottom: 32px;
     max-width: 323px;
     height: 69px;
@@ -111,7 +112,6 @@
   }
 
   .contact-play {
-    margin: 0 auto;
     max-width: 173px;
   }
 
