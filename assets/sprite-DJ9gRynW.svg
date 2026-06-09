@@ -179,21 +179,6 @@
         stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1"
         d="M22.667 14.667l-4 8h2.667l-1.333 5.333 5.333-8h-3.333l2-5.333h-1.333z"></path>
     </symbol>
-    <symbol id="icon-confetti" viewBox="0 0 32 32">
-      <path fill="#ff5c8d" style="fill: var(--color4, #ff5c8d)" opacity="0.7"
-        d="M8 11.52c1.944 0 3.52-1.576 3.52-3.52s-1.576-3.52-3.52-3.52c-1.944 0-3.52 1.576-3.52 3.52s1.576 3.52 3.52 3.52z">
-      </path>
-      <path fill="#ffd23f" style="fill: var(--color2, #ffd23f)" opacity="0.7"
-        d="M24 17.6c2.651 0 4.8-2.149 4.8-4.8s-2.149-4.8-4.8-4.8c-2.651 0-4.8 2.149-4.8 4.8s2.149 4.8 4.8 4.8z"></path>
-      <path fill="#36c5c0" style="fill: var(--color6, #36c5c0)" opacity="0.7"
-        d="M12.8 26.88c1.591 0 2.88-1.289 2.88-2.88s-1.289-2.88-2.88-2.88c-1.591 0-2.88 1.289-2.88 2.88s1.289 2.88 2.88 2.88z">
-      </path>
-      <path fill="#b8a4ff" style="fill: var(--color5, #b8a4ff)" opacity="0.7"
-        d="M25.6 27.84c1.237 0 2.24-1.003 2.24-2.24s-1.003-2.24-2.24-2.24c-1.237 0-2.24 1.003-2.24 2.24s1.003 2.24 2.24 2.24z">
-      </path>
-      <path fill="#7ce5c1" style="fill: var(--color3, #7ce5c1)" opacity="0.7"
-        d="M4.8 16l1.28-2.24 1.28 2.24-1.28 2.24-1.28-2.24z"></path>
-    </symbol>
     <symbol id="icon-avatar-emma" viewBox="0 0 32 32">
       <path fill="#fff1d6" style="fill: var(--color7, #fff1d6)" d="M32 0h-32v32h32v-32z"></path>
       <path fill="#e0a052" style="fill: var(--color8, #e0a052)"
