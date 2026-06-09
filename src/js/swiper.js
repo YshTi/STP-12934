@@ -31,7 +31,7 @@ if (feedbackSwiper) {
     navigation: {
       nextEl: '[data-feedback-next]',
       prevEl: '[data-feedback-prev]',
-      disabledClass: 'feedback-button-disabled',
+      disabledClass: 'swiper-feedback-button-disabled',
     },
 
     breakpoints: {
